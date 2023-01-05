@@ -1,0 +1,133 @@
+main{
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+.header{
+    text-align: center;
+    padding: 40px 0px;
+    color: #191919;
+}
+
+.header h1{
+    font-size: 32px;
+}
+
+.header p{
+    font-size: 18px;
+}
+
+.counter{
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.counter textarea {
+    resize: none;
+    width: 90%;
+    height: 250px;
+    font-size: 18px;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.counter textarea:focus {
+    outline: none;
+}
+
+
+.counter button{
+    background-color: #bc4242;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    width: 150px;
+    font-size: 16px;   
+    padding: 5px 15px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.counter button:hover{
+    background-color: #ae3a3a;
+}
+
+.counter button:disabled {
+    background-color: #858585;
+    cursor: not-allowed;
+}
+
+.counter .result{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 22px;
+    margin: 10px 0px;
+}
+
+.counter .result span{
+    background-color: #1F4690;
+    color: #ffffff;
+    min-width: 170px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.joke{
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.joke p{
+    padding: 20px 20px;
+    border: 1px solid #1F4690;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.pnf{
+    padding: 50px 10px;
+}
+
+.pnf img{
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+
+.oops{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    max-width: 350px;
+    border-radius: 5px;
+    padding: 30px 40px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.oops p{
+    margin: 10px;
+    font-size: 26px;
+}
+
+
+.oops button{
+    background-color: #1F4690;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+}

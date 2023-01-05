@@ -1,0 +1,57 @@
+.App {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 15px;
+}
+
+.heading {
+  font-size: 22px;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.card.unavailable {
+  background-color: #ffbebe;
+}
+
+.card .id {
+  background-color: #4e06a0;
+  font-size: 14px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.card .name {
+  font-size: 20px;
+}
+
+.card .info {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+button {
+  border: 0px;
+  border-radius: 5px;
+  background-color: #0c68a1;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+}
+
+button.onlyStock {
+  background-color: #0ca14f;
+}
+
+button.all {
+  background-color: #065ba0;
+}

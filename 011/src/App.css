@@ -1,0 +1,39 @@
+.App{
+  text-align: center;
+}
+
+.box{
+  max-width: 200px;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 10px;
+}
+
+p{
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+button{
+  padding: 10px;
+  margin: 20px 10px;
+  font-size: 16px;
+  color: #FFFFFF;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.add{
+  background-color: #18978F;
+}
+
+button.sub{
+  background-color: #EB4747;
+}
+
+button.reset{
+  background-color: #0F3460;
+}

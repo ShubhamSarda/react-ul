@@ -1,0 +1,37 @@
+.box {
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px 5px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.box.success {
+    background-color: #baffbf;
+}
+
+.box.alert {
+    background-color: #ffb4b4;
+}
+
+.box.warning {
+    background-color: #FFDEB4;
+}
+
+.box p {
+    margin: 10px;
+}
+
+.box p.title {
+    font-size: 20px;
+}
+
+.box p.description {
+    font-size: 14px;
+}
+
+.box button{
+    width: 300px;
+    margin-top: 20px;
+}

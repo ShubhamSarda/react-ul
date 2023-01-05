@@ -1,0 +1,139 @@
+.App {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0px 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  border-bottom: 1px solid #EEEEEE;
+  font-size: 18px;
+  padding: 0px 10px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  max-width: 40px;
+  margin-right: 5px;
+}
+
+.navigation .link{
+  padding: 10px;
+}
+
+.navigation .link.active{
+  background-color: #EEEEEE;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 680px) {
+  .navigation{
+      display: none;
+  }
+}
+
+.productList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px 0px;
+}
+
+.productCard{
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productCard img{
+  max-width: 100%;
+  height: 250px;
+  margin: 10px 0px;
+}
+
+.productCard .name{
+  margin: 10px 0px;
+}
+
+.productCard p{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.productCard .action{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.productCard button{
+  border: 0px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #1C59AE;
+  padding: 7px 10px;
+  cursor: pointer;
+  max-width: 150px;
+}
+
+.productCard button:hover{
+  background-color: #103f80;
+}
+
+.productDetail{
+  display: flex;
+  justify-content: space-between;
+}
+
+.productDetail .visual{
+  width: 50%;
+}
+
+.productDetail .visual img{
+  width: 100%;
+}
+
+.productDetail .info{
+  max-width: 50%;
+}
+
+.productDetail .info .name{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.productDetail .info .description{
+  font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  .productDetail .visual{
+    width: 100%;
+  }
+}
+
+footer{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  height: 70px;
+  font-size: 18px;
+  border-top: 1px solid var(--theme-border);
+}

@@ -1,0 +1,89 @@
+.App {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0px 15px;
+}
+
+h1{
+  text-align: center;
+  margin: 30px auto;
+}
+
+.heading {
+  font-size: 22px;
+  align-items: center;
+}
+
+.filter{
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 15px auto;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+.card .id {
+  background-color: #4e06a0;
+  font-size: 12px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 5px;
+  display: inline;
+}
+
+.card .name {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+
+.card .info {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .instock {
+  background-color: #06a02d;
+  font-size: 16px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 5px;
+  display: inline;
+}
+
+.card .unavailable {
+  background-color: #a00620;
+  font-size: 16px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 5px;
+  display: inline;
+}
+
+button {
+  border: 0px;
+  border-radius: 5px;
+  background-color: #0c68a1;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 7px 10px;
+  font-size: 20px;
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+button.onlyStock {
+  background-color: #037c3a;
+}
+
+button.all {
+  background-color: #065ba0;
+}

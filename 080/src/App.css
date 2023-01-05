@@ -1,0 +1,149 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  border-bottom: 1px solid #EEEEEE;
+  font-size: 18px;
+  padding: 0px 10px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  max-width: 40px;
+  margin-right: 5px;
+}
+
+.navigation .link{
+  padding: 10px;
+}
+
+.navigation .link.active{
+  background-color: #EEEEEE;
+  border-radius: 5px;
+}
+
+.items{
+  font-weight: 500;
+  min-width: 70px;
+}
+
+@media screen and (max-width: 680px) {
+  .navigation{
+      display: none;
+  }
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px 0px;
+}
+
+.product{
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product img{
+  max-width: 100%;
+  height: 250px;
+  margin: 10px 0px;
+}
+
+.product .name{
+  margin: 10px 0px;
+}
+
+.product p{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.product .action{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.product button{
+  border: 0px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #1C59AE;
+  padding: 7px 10px;
+  cursor: pointer;
+  max-width: 150px;
+}
+
+.product button:hover{
+  background-color: #103f80;
+}
+
+.cart{
+  margin: 30px 0px;
+}
+
+.cart h1{
+  text-align: center;
+}
+
+.cartCard{
+  display: flex;    
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  margin: 30px 10px;
+  padding: 10px;
+}
+
+.cartCard img{
+  width: 150px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.cartCard .productName{
+  width: 350px;
+  margin-right: 10px;
+}
+
+.cartCard .productPrice{
+  width: 100px;
+  margin-right: 10px;
+}
+
+.cartCard button{
+  border: 0px;
+  background-color: #ac0d14;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cartCard button:hover{
+  background-color: #8e090f;
+}
+
+
+@media screen and (max-width: 680px) {
+  .cartCard img{
+      display: none;
+  }
+}

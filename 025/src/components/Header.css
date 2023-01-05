@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    border-bottom: 1px solid var(--theme-border);
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+header img{
+    max-width: 45px;
+}
