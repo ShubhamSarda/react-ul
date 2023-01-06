@@ -76,24 +76,28 @@ button.trigger{
 }
 
 .box{
-  width: 600px;
+  width: 400px;
   margin: 20px auto;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  padding: 10px;
+  padding: 20px 5px;
   border: 0px;
   border-radius: 5px;
 }
 
 .box.success{
-  background-color: #B1D7B4;
+  background-color: #baffbf;
 }
 
 .box.alert{
-  background-color: #FF8B8B;
+  background-color: #ffb4b4;
 }
 
 .box.warning{
   background-color: #FFDEB4;
+}
+
+.box p{
+  margin: 10px;
 }
 
 .box p.title{
@@ -101,5 +105,9 @@ button.trigger{
 }
 
 .box p.description{
-  font-size: 16px;
+  font-size: 14px;
+}
+
+.hidden{
+  display: none;
 }

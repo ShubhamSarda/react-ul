@@ -33,3 +33,7 @@ button.add{
 button.sub{
   background-color: #EB4747;
 }
+
+button.reset{
+  background-color: #0F3460;
+}
