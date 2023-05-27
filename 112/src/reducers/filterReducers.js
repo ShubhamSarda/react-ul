@@ -22,6 +22,6 @@ export const filterReducer = (state, action) => {
             return
         
         default:
-            throw new Error("No Cae Found!");
+            throw new Error("No Case Found!");
     }
 }
