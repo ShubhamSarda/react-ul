@@ -13,7 +13,7 @@ npm start
 
 Open [localhost:3000](http://localhost:3000). Each lecture README gives its own commands and any API or Firebase setup. [Lecture 144](144/) runs a standalone mock API. The [webpack examples starting at lecture 252](252/) use `npm run build`. For plain HTML examples such as [206](206/), open the included `index.html`.
 
-[Lecture 149](149/) starts with empty test files for you to fill in during the lecture.
+Two snapshots capture work in progress. [Lecture 124](124/) has a reducer export typo that is corrected in [lecture 125](125/). [Lecture 149](149/) starts with empty test files for you to fill in during the lecture.
 
 ## Package versions
 
