@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.0",
+    "@testing-library/jest-dom": "8.0.0",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.13",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router-dom": "6.30.6",
     "react-scripts": "5.0.1",
-    "react-toastify": "^9.0.8",
-    "web-vitals": "^2.1.4"
+    "react-toastify": "11.2.0",
+    "web-vitals": "6.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,8 +38,8 @@
     ]
   },
   "devDependencies": {
-    "json-server": "^0.17.0",
-    "json-server-auth": "^2.1.0",
-    "tailwindcss": "^3.1.8"
+    "json-server": "0.17.0",
+    "json-server-auth": "2.1.0",
+    "tailwindcss": "3.1.8"
   }
 }
